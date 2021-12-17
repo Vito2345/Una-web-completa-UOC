@@ -1,0 +1,139 @@
+h1, h2{
+  color: #212121;
+  font-size: 40px;
+}
+main{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 100%;
+}
+#a1{
+  float: left;
+  width: 45%;
+}
+button, #a1>a{
+  background-color: #474559;
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+img{
+  width: 30%;
+  float: right;
+  margin: 20px;
+}
+
+#curriculum{
+  position: absolute;
+  margin-top: 300px;
+}
+#exp{
+  float: left;
+  width: 45%;
+}
+#ed{
+  float: right;
+  width: 45%;
+}
+#exp>div, #ed>div{
+  margin-bottom: 180px
+}
+.bola{
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  float: left
+}
+.bola>p{
+  color: white;
+  margin-top: 26px;
+  font-weight: bold;
+}
+.info{
+  float: right;
+  width: 70%;
+}
+
+button:hover, .bola, #a1>a:hover{
+  background-color: #0019ff;
+}
+#foot, #nom, a:hover{
+  color: #0019ff;
+  text-decoration: none;
+}
+h3>span{
+  color:#474559;
+  font-size: 14px;
+}
+#a2, .center{
+  text-align: center;
+}
+#a2{
+  background-color: #efefef;
+  padding: 30px;
+}
+.green{
+  color: #72edca;
+  font-size: 200px;
+  padding: 0;
+  margin-bottom: -100px;
+  margin-top: -50px;
+}
+.black, .center{
+  font-weight: bold;
+}
+
+#comentari{
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 80%;
+  width: 700px;
+}
+#nd{
+  text-decoration: none;
+}
+.dark-mode {
+  background: #0c0c0d;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  main{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+  }
+  #ed, #comentari, #exp, #a1,img,#curriculum{
+    position: relative;
+    float: none;
+    width: 90%;
+  }
+  #comentari{
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 30px;
+    position: absolute;
+  }
+  footer{
+    margin-top: 600px;
+  }
+  #curriculum{
+    margin-top: 0;
+    width: 100%;
+  }
+  #exp>div{
+    margin-bottom: 210px; 
+  }
+  .info{
+    width: 70%;
+    padding: 5px;
+  }
+  .bola{
+    width: 22%;
+  }
+  
+}
+

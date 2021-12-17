@@ -1,0 +1,126 @@
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+h3{
+    padding-left: 5%;
+    font-size: 30px;
+}
+nav>a{
+    color: #5b5b5b;
+    text-decoration: none;
+}
+nav>a:hover{
+    color:#0019ff;
+    text-decoration: none;
+}
+#foot, #foot:hover{
+    color: #0019ff;
+}
+a:hover{
+    color: #72edca;
+}
+input[type="submit"]{
+    background-color: #72edca;
+    border-radius: 10px;
+    width: 180px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+input[type="submit"]:hover{
+    background-color: #0019ff;
+}
+input[type="text"]{
+    border: 2px solid black;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+}
+#text{
+    height: 100px;
+}
+#l{
+    float: left;
+    background-color: rgb(34, 25, 36);
+    width: 45%;
+    margin-bottom: 20px;
+}
+#r{
+    float: right;
+    width: 45%;
+}
+#p1{
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+}
+#p2{
+    float: right;
+    width: 40%;
+    padding-left: 5%
+}
+#p2>p{
+    margin-bottom: -10px;
+}
+#p1>p{
+    margin-bottom: 28px;
+}
+h3, #p1>p, #p2>p{
+    color: white;
+}
+main{
+    margin-bottom: 600px;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+
+.dark-mode {
+    background: #0c0c0d;
+    color: white;
+  }
+
+  @media (max-width: 600px) {
+    main{
+      margin-left: 5%;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+    #l, #r{
+      position: relative;
+      float: none;
+      width: 90%;
+    }
+    #p{
+        height: 160px;
+        width: 95%;
+    }
+    #p1, #p2{
+        margin-top:-160px;
+    }
+    #p1{
+        width: 65%;
+    }
+    #p2{
+        width: 35%;
+    }
+    h2{
+        text-align: center;
+    }
+    input[type="submit"]{
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+    #purple{
+       display: block;
+       margin-bottom: 200px;
+    }
+}

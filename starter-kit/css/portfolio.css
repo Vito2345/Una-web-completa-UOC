@@ -1,0 +1,99 @@
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 64px;
+    z-index: 3;
+}
+th{
+    background-color: #55608f;
+}
+
+tr:hover{
+    background-color: white;
+    opacity: 0.3;
+}
+a>img{
+    opacity: 0.7;
+    margin: auto;
+    filter: grayscale(1);
+    width: 250px;
+}
+a>img:hover{
+    transition: 1s;
+    opacity: 1;
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+a>img:focus{
+    color: #72edca;
+}
+h1,h4{
+    text-align: center;
+}
+table{
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table1{
+    border: 0
+}
+.table1>td, .table1>th{
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+}
+#t>tbody{
+    background: linear-gradient(45deg, #6DB2B1, #7E599C 100%);
+}
+.table2>td{
+    width: 350px;
+    padding: 30px;
+}
+.table2title, span{
+    font-weight: bold;
+}
+td>a{
+    color: white
+}
+
+.dark-mode {
+    background: #0c0c0d;
+    color: white;
+  }
+  hr{
+      position: absolute;
+      z-index: 2;
+      width: 30px;
+      height: 1px;
+  }
+  .movile{
+      display: none;
+  }
+
+  @media (max-width: 600px) {
+      main{
+          width: 90%;
+          margin: 5%
+      }
+      .table2{
+          display: flex;
+          flex-direction: column;
+      }
+      .table2title, .table2desc{
+          display: none;
+      }
+      .movile{
+          display: flex;
+          margin-top: -50px;
+      }
+
+  }
